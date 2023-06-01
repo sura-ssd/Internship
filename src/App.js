@@ -28,7 +28,8 @@ function App() {
       {
       list.map((data)=>{
       return <div >
-       <div class="img"><img  src={data?.img_src}/></div> 
+       <div class="img"><img  src={data?.img_src}/></div>
+       <p>daftech</p> 
         <p >{data?.name}</p>
         <p id="desc">{data?.description}</p>
         <h1>{data?.type}</h1>
