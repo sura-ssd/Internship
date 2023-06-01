@@ -27,7 +27,7 @@ function App() {
 
       {
       list.map((data)=>{
-      return <div >
+      return <div className='frog' >
        <div class="img"><img  src={data?.img_src}/></div>
          
         <p >{data?.name}</p>
