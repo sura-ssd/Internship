@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -29,7 +29,7 @@ function App() {
       list.map((data)=>{
       return <div >
        <div class="img"><img  src={data?.img_src}/></div>
-       <p>API</p>
+         
         <p >{data?.name}</p>
         <p id="desc">{data?.description}</p>
         <h1>{data?.type}</h1>
