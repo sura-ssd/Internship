@@ -1,6 +1,6 @@
 body{
   background-color: rgb(205, 205, 235);
-  color: aliceblue;
+  color: rgb(63, 73, 81);
 }
 .App {
   text-align: center;
@@ -41,15 +41,24 @@ body{
   }
 }
 #desc{
-  background-color: #282c34;
+ 
   font-size: 15px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: italic;
   color: aliceblue;
+  color: rgb(63, 73, 81);
+  text-align: justify;
+  width: 400px;
+  text-align: center;
+  margin: auto;
 }
 img{
   background-color: rgb(42, 30, 30);
   border-radius: 25px;
   /* width: 550px; */
   box-shadow: 1px 4px 5px rgb(60, 52, 52);
+  transition: 0.3s;
+}
+img:hover{
+  box-shadow:  1px 15px 10px rgb(42, 30, 30);
 }
