@@ -23,7 +23,8 @@ function App() {
   },[])
  
   return (
-    <div className="App" >
+    <div className="container">
+        <div className="App" >
 
       {
       list.map((data)=>{
@@ -37,6 +38,8 @@ function App() {
       })
       }
     </div>
+    </div>
+    
   );
 }
 
