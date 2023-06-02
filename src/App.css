@@ -47,9 +47,8 @@ body{
   font-style: italic;
   color: aliceblue;
   color: rgb(63, 73, 81);
-  text-align: justify;
-  width: 400px;
-  text-align: center;
+  text-align: justify center;
+  width: 700px;
   margin: auto;
 }
 img{
@@ -61,4 +60,7 @@ img{
 }
 img:hover{
   box-shadow:  1px 15px 10px rgb(42, 30, 30);
+}
+#name{
+  font-weight: bolder;
 }

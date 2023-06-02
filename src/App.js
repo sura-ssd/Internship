@@ -30,7 +30,7 @@ function App() {
       return <div className='frog' >
        <div ><img  src={data?.img_src}/></div>
          
-        <p >{data?.name}</p>
+        <p id="name">{data?.name}</p>
         <p id="desc">{data?.description}</p>
         <h1>{data?.type}</h1>
         </div>
