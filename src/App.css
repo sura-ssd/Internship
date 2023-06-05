@@ -72,6 +72,7 @@ img{
 }
 img:hover{
   box-shadow:  1px 15px 10px rgb(42, 30, 30);
+  transform: translateX(15px);
 }
 #name{
   font-weight: bolder;
